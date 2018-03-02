@@ -74,7 +74,7 @@ user.timesheets.where(submitted: true).order('updated_at desc')
 
 ## The `belongs_to` Association
 
-Defining a belongs_to relationship on a class creates a method with the same name on its instances. As
+Defining a `belongs_to` relationship on a class creates a method with the same name on its instances. As
 mentioned earlier, the method is actually a proxy to the related Active Record object and adds capabilities
 useful for manipulating the relationship.
 

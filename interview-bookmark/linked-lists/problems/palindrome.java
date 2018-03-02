@@ -27,4 +27,32 @@ boolean isEqual(LinkedListNode l1, LinkedListNode l2){
   return l1 == null && l2 == null;
 }
 
+// interative approach
+
+boolean isPalindrome (LinkedListNode head){
+  LinkedListNode slow = head, fast = head;
+  Stack<LinkedListNode> stack = new Stack<LinkedListNode>();
+
+  while (fast != null && fast.next != null) {
+    stack.push(slow.data);
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+
+  //  odd length linked list
+  if(fast != null){
+    slow = slow.next;
+  }
+
+  while(slow != null){
+    LinkedListNode top = stack.pop();
+    if(top.data != slow.data) return fasle;
+    slow = slow.next;
+  }
+  return true;
+}
+
+
+
+
 
