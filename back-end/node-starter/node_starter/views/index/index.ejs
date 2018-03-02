@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <% if(user) { %>
+    <p>Hello <%= user.username %> </p>
+  <% } %>
+
+  <p>Welcome to <%= title %></p>
+
+  <% if(user) { %>
+    <a href="/users/logout">logout</a>
+  <% } else { %>
+    <a href="/login">login</a>
+    <a href="/signup">signup</a>
+  <% } %>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <p>Welcome to <%= subject %></p>
+    <% users.forEach(function(user){ %>
+      <%- include('show', {user: user}); %>
+      <hr>
+    <% }); %>
+    <a href="/users/logout">logout</a>
+  </body>
+</html>
