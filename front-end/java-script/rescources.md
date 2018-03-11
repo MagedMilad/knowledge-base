@@ -1,0 +1,5 @@
+-[FrontEnd Masters](https://github.com/FrontendMasters)
+-[JavaScripting](http://www.javascripting.com/)
+-[Bestof JS](https://bestof.js.org/)
+-[Rising Stars](https://risingstars.js.org/2017/en/)
+-[JS Coach](https://js.coach/)

@@ -1,0 +1,1 @@
+-[Angular2 Training Book](https://angular-2-training-book.rangle.io/)
