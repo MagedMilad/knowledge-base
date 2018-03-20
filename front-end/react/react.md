@@ -160,24 +160,6 @@ need props:
 - `Reducers` should treat the `state` object as immutable.
 
 
----
-# tools
-
-- [create-react-app](https://github.com/facebookincubator/create-react-app) create react webpack application
-
-- [styleguidist](https://github.com/styleguidist/react-styleguidist) component development environment
-
-- [formsy-react](https://github.com/christianalfoni/formsy-react)
-
-- [react-redux-form](https://github.com/davidkpiano/react-redux-form) handing react redux forms
-
-- [redux](https://github.com/reactjs/redux)
-
-- [react-redux](https://github.com/reactjs/react-redux) provide handy methods for using redux in react
-
-- [redux-thunk](https://github.com/gaearon/redux-thunk) provide methods for async redux actions
---- 
-
 # QA
 
 ## State criteria
