@@ -21,6 +21,8 @@
 - [reselect](https://github.com/reactjs/reselect) Use this for composable, lazily-evaluated, views into your state. For example, for a particular component you might want to:
     - inject only the relevant part of the global state tree, rather than the whole thing
     - inject extra derived data, like totals or validation state, without putting it all in the store
+- [normalizr](https://github.com/paularmstrong/normalizr)
+- [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver) for east import
 
 ## Code Linting
 - [standardjs](https://standardjs.com/)
